@@ -3,12 +3,20 @@
     <head>
         <title> Tablas</title>
         <meta charset="utf-8">
+        <!--Estilo interno-->
+        <style>
+        tr{background-color: blue;}
+        </style>
+        <!--Estilo externo-->
+        <link href="estilos.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <h1>Ejemplo tablas</h1>
         <table>
             <thead>
-                <tr>
+                <!--estilo en linea (no recomendado)
+                <tr style="background-color: green;">-->
+                <tr class="verde">
                     <th>Materia</th>
                     <th>Créditos</th>
                 </tr>
@@ -28,7 +36,7 @@
                 </tr>
             </tbody>
             <tfoot>
-                <tr>
+                <tr class="verde">
                     <td>Total</td>
                     <td>28</td>
                 </tr>
