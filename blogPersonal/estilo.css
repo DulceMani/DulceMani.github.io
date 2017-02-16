@@ -1,11 +1,11 @@
 div {
-    border: 4px solid maroon;
+    border: 6px solid purple;
     width: 1000px;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 10px; 
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 30px;
 }
 * {
@@ -16,7 +16,7 @@ div {
 }
 h1 {
     text-align: center;
-    color: white;
+    color: lawngreen;
 }
 body {
     background-color: pink;
@@ -26,9 +26,16 @@ body {
     width: 100%;
     border: 0px;
     margin-top: 0px;
-    background-color: maroon;
+    background-color: purple;
     
 }
 h2 {
     color: purple;
+}
+.subtitulo{
+    border: 5px solid magenta;
+    border-radius: 60px;
+    padding-left: 60px;
+    width: 900px;
+    color: dodgerblue;
 }
