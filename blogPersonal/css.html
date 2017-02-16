@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>CSS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="encabezado">
+        <h1><b>CSS</b> (Cascading Style Sheet)</h1>
+        </div>
+        <div>
+        <ul>
+            Versiones de CSS:
+            <li>
+                <b>CSS1</b> <b>-&gt;</b> 1996(borrador) 
+                <b>-&gt;</b> 1999 (liberado) 
+                <b>-&gt;</b> 2001 (Soportado por todos los navegadores)
+            </li>
+            <li>
+                <b>CSS2</b> <b>-&gt;</b> 1998 (borrador) <b>-&gt;</b> 2007
+            </li>
+            <li>
+                <b>CSS3</b> <b>-&gt;</b> 2001 <b>-&gt;</b> 2013
+            </li>
+        </ul>
+        </div>
+        <div>
+        <h2>Reglas CSS</h2>
+        <p>Las reglas permiten cambiar la apariencia
+            (presentación) de los elementos HTML</p>
+       <ul>
+           <li>Sintaxis general de CSS
+               <ul><li> <b>selector{declaraciones}</b></li></ul>
+           </li>
+           <li>declaraciones CSS
+               <ul><li><b>propiedad:valor;</b></li></ul>
+           </li>
+       </ul>
+       <h3>Ejemplos:</h3>
+       <img src="imgEjRegCSS.png" alt="Ejemplo Reglas CSS"  width="600px">
+        </div>
+        <div>
+       <h2>Tipos de estilo</h2>
+       <ol>
+           <li>Por default (navegador).</li>
+           <li>Del usuario (archivo local)</li>
+           <li>Hoja de estilo externa <ul><li>Usa la etiqueta &lt;link&gt;
+               para hacer referencia al archivo</li></ul></li>
+            <li>Estilo interno &lt;style&gt;</li>
+            <li>Estilo en linea <ul><li>Se asigna la propiedad y valor.</li></ul></li>
+       </ol>
+       <h3>Ejemplos</h3>
+       <img src="imgEst.png" alt="Ejemplo Reglas CSS"  width="600px">
+       </div>
+       <div>
+       <h2>Selectores CSS</h2>
+       <dl>
+           <dt>Selector de tipo</dt>
+           <dd>
+               Selecciona un tipo de elemento HTML
+                y aplica el estilo a todos los eleentos del mismo tipo <br/>
+                Ej. <br/>
+                <b>p{text-align:justify;}</b>
+           </dd>
+           
+           <dt>Selector descendente </dt>
+           <dd>Aplica el estilo a elementos que están contenidos dentro de otros elementos. <br/>
+           Ej. <br/>
+           <b>pb{color: red;} <br/> ul{i b {color: green;}}</b>
+           </dd>
+
+           <dt>Selector hijo</dt>
+           <dd>Similar al desendiente pero mas restrictivo aplica el estilo solamente a los elementos que sean hijos directos de otro elemento. <br/>Ej. <br/>
+           <b>p > b {color: blue;}</b> <br/>
+           Ej. HTML <br/>
+           <b>< p >< i >< b > Hola < / b> < / i> < / p></b></dd>
+           <dt>Selector por ID</dt>
+           <dd>Un ID es un atributo de un elemento en HTML y se utiliza para aplicar un estilo de manera particular. <br/>
+           Ej. <br>
+           <b>< p id= "introduccion" > Este es el parrafo de la introduccion < / p > <br/>
+           # instruccion {color: blue;}</b></dd>
+           <dt>Selector por clase</dt>
+           <dd>Aplicar estilo a un conjunto de elementos <br/>
+           Ej. <br/>
+           <b>< p class = "especial" > Este es un parrafo especial < / p > <br/>
+           . especial {color: red;} <br/>
+           < p class = "especial" > este es otro parrafo < / p ></b></dd>
+           <dt>Selector universal * </dt>
+           <dd>Aplica el mismo estilo a todos lo elementos de la página. <br/> Los estilos se eredan, si aplicas un estilo a un elemento todos los elementos dentro de él tendrán el mismo estilo.</dd>
+
+       </dl>
+       <h3>Propiedades</h3>
+       <ol>
+           <li>Color
+               <ul>
+                   <li>Nombre (140)</li>
+                   <li>Hexadecimal # 6 o 3 dígitos</li>
+               </ul>
+               <ul>
+                   <li>rgb</li>
+                   <li>rgba</li>
+                   <li>hsl</li>
+                   <li>hsla</li>
+               </ul>
+           </li>
+           <li>Fuete <br/>
+           <img src="imgFonts.png" alt="Ejemplo de Agrupaciones"width="600px">
+           </li>
+       </ol>
+       <br/>
+       <a href="index.html">Regresar</a>
+        </div>
+    </body>
+</html>
