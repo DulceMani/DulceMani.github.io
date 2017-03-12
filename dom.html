@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="encabezado">
+        <h1><b>DOM</b> (Document Object Model)</h1>
+        </div>
+        <div>
+            <p>Representa el documento HTML en forma de una estructura de arbol.<br>
+            El documento se puede manipular facilmente a travez del arbol, es decir, agregar, eliminar, modificar elementos etc.</p>
+
+            <ol>
+                <li>Acceder elementos del documento<br>
+                Metodos del documento:
+                    <ul>
+                        <li>document.getElementsByTagName('etiqueta')</li>
+                        <li>document.getElementsBy('clase')</li>
+                        <li>document.getElementById('id')</li>
+                    </ul>
+                </li>
+                <li>Modificar el contenido de un elemento<br>
+                Propiedades del elemento:
+                    <ul>
+                        <li>elemento.textContent = 'texto'</li>
+                        <li>elemento.innerHTML = 'codigo HTML'</li>
+                    </ul>
+                </li>
+                <li>Agregar elementos (nodos) nuevos:
+                    <ol>
+                        <li>Crear el elemento (createElement())</li>
+                        <li>Crear el contenido (createTextNode())</li>
+                        <li>Añadir el contenido al elemento (appendChild())</li>
+                        <li>Agregar atributos (setAtribute())</li>
+                        <li>agregar el nuevo elemento al documento (appendChild())</li>
+                    </ol>
+                </li>
+
+            </ol>
+
+            <a href="index.html">Regresar</a>
+        </div>
+
+        <a target="_blank" href="http://validator.w3.org/check?uri=dulcemani.github.io/dom.html">
+        <img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML"></a>
+</body>
+</html>

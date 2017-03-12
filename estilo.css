@@ -32,6 +32,9 @@ body {
 h2 {
     color: purple;
 }
+h3 {
+    color: deeppink;
+}
 .subtitulo{
     border: 5px solid magenta;
     border-radius: 60px;
